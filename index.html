@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>Google</title>
   </head>
   <body>
@@ -26,7 +30,37 @@
           </li>
         </ul>
       </nav>
-      <div class="container"></div>
+      <div class="container">
+        <header>
+          <img src="/assets/logo.png" alt="Google Logo" />
+        </header>
+        <main>
+          <form action="#" method="get">
+            <div class="searchbox">
+              <div class="searchicon">
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: #d5d7d7"
+                ></i>
+              </div>
+              <input
+                type="text"
+                name="q"
+                class="searchinput"
+                aria-label="Search"
+              />
+              <div class="searchicons">
+                <i class="fa-solid fa-microphone" style="color: #4a4b4d"></i>
+                <i class="fa-solid fa-camera-retro" style="color: #7e8081"></i>
+              </div>
+            </div>
+            <div class="buttons">
+              <input type="submit" value="Google Search" class="btn" />
+              <input type="submit" value="I'm Feeling Lucky" class="btn" />
+            </div>
+          </form>
+        </main>
+      </div>
 
       <footer></footer>
     </div>
