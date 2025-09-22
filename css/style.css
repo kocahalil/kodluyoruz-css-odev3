@@ -85,7 +85,7 @@ a.profilepic:hover {
 }
 .nav-links a {
   text-decoration: none;
-  color: #5f6368;
+  color: #3c3f42;
   font-family: Arial, sans-serif;
   border-radius: 4px;
 }
@@ -103,15 +103,19 @@ a.profilepic:hover {
   width: 582px;
   height: 44px;
   border: 1px solid #dfe1e5;
-  box-shadow: none;
+  box-shadow: 0 1px 6px rgba(125, 126, 138, 0.28);
   border-radius: 24px;
   margin: 25px auto;
   padding-left: 15px;
   padding-right: 15px;
   gap: 10px;
 }
+.searchbox:hover {
+  box-shadow: 0 2px 6px rgba(32, 33, 36, 0.28);
+  border: 1px solid #d0d0d1;
+}
 .searchbox input[type="text"] {
-  width: 100%;
+  width: 480px;
   height: 36px;
   border: none;
   outline: none;
@@ -128,4 +132,58 @@ a.profilepic:hover {
 }
 .searchicons {
   font-size: 18px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.buttons input[type="submit"] {
+  width: 120px;
+  height: 36px;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+}
+.buttons input[type="submit"]:hover {
+  border: 1px solid #dddbdb;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100px; /* ihtiyaca göre ayarlayın */
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  color: #292a2b;
+  z-index: 100;
+}
+.footer-content {
+  text-align: center;
+  font-size: 14px;
+  width: 100vw;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(202, 200, 200); /* istediğiniz renk */
+}
+.footer-rights {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
 }
