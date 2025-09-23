@@ -3,7 +3,6 @@
   padding: 0;
 }
 .container {
-  text-align: center;
   margin-top: 100px;
   width: 100%;
   display: flex;
@@ -112,7 +111,7 @@ a.profilepic:hover {
   justify-content: center;
   position: relative;
   width: 582px;
-  height: 44px;
+  height: 51px;
   border: 1px solid #dfe1e5;
   box-shadow: 0 1px 6px rgba(125, 126, 138, 0.28);
   border-radius: 24px;
@@ -174,7 +173,7 @@ footer {
   bottom: 0;
   width: 100vw;
   background: #f2f2f2;
-  color: #292a2b;
+  color: #1f1f1f;
   flex: 1;
 }
 .footer-content {
@@ -190,19 +189,22 @@ footer {
   padding: 10px 20px;
   text-align: left;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 .footer-under {
   flex: 3;
   margin-top: 10px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  border-top: 1px solid rgb(205, 202, 202);
+  border-top: 1px solid rgb(219, 215, 215);
+}
+.footer-rights {
+  text-align: right;
 }
 .footer-rights,
 .footer-lefts {
+  padding: 15px;
   flex: 1;
   font-family: Arial, Helvetica, sans-serif;
 }
